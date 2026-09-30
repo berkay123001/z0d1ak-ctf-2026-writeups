@@ -1,12 +1,12 @@
 <div align="center">
 
-# z0d1ak CTF Qualifiers 2026 · Writeups
+# z0d1ak CTF Qualifiers 2026 · Selected Writeups
 
-**Seventeen recorded solutions, with the method and the evidence kept together.**
+**Selected, evidence-backed explanations—not a complete solve history.**
 
 </div>
 
-This is a curated English edition of my z0d1ak CTF Qualifiers 2026 work. It is not a mirror of the private working repository. Only the 17 challenges recorded as solved in its final audit are listed here; partial exploits, rejected flag candidates, downloaded-only challenges, credentials, and raw working directories are absent. Some results can be checked against local artifacts, while others rely on archived live-session records. Each page says which.
+This is a curated English collection of **17 writeups** from my z0d1ak CTF Qualifiers 2026 work. It is **not a complete list of challenges I solved**, a scoreboard recap, or a mirror of the private working repository. Other solves may be missing because their writeups or supporting materials were not preserved or selected for this edition. The number 17 counts the pages published **here**, not my total solves. Partial exploits, rejected flag candidates, downloaded-only challenges, credentials, and raw working directories are absent. Some included results can be checked against local artifacts, while others rely on archived live-session records; each page says which.
 
 | Category | Challenge | Key idea | Evidence |
 |:--|:--|:--|:--|
@@ -32,4 +32,4 @@ This is a curated English edition of my z0d1ak CTF Qualifiers 2026 work. It is n
 
 Start with the failure or observation that made the challenge tractable, then follow the chain to the flag. The **Evidence and limits** section is as important as the exploit: a local decode is not a scoreboard acceptance, and an archived live result is not a promise that a retired service is still available. Flags are spoiler material and appear near the end of each page.
 
-The [provenance ledger](docs/PROVENANCE.md) records which private source files support each writeup without publishing those files. [Independent reading](docs/EXTERNAL-READING.md) links other authors' solutions, including cryptography challenges I did **not** solve, in a separate section. No third-party writeup or solver was copied into this repository. These are historical CTF examples, not tests of current public services.
+The [provenance ledger](docs/PROVENANCE.md) records which private source files support each included writeup without publishing those files. [Independent reading](docs/EXTERNAL-READING.md) links other authors' solutions in a separate section; a missing page here does **not** mean I never solved that challenge. No third-party writeup or solver was copied into this repository. These are historical CTF examples, not tests of current public services.

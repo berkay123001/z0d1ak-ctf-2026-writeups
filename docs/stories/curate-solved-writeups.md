@@ -1,16 +1,17 @@
-# Story: Publish the solved z0d1ak 2026 archive
+# Story: Publish selected z0d1ak 2026 writeups
 
 ## Scope
 
-Create an English, public, solution-only archive from the private z0d1ak working tree. Preserve precise evidence labels, avoid unsolved/decoy material, and do not mutate the source tree.
+Create an English, public collection of selected educational writeups from the private z0d1ak working tree. Preserve precise evidence labels, avoid unsolved/decoy material, and do not mutate the source tree. Do not represent the page count as the author's total solve count.
 
 ## Acceptance checklist
 
 - [x] Review the final source audit rather than classifying by filenames alone.
-- [x] Separate 17 recorded solutions from partial, unsolved, untouched, decoy, and local-test entries.
+- [x] Select 17 source-backed writeups while keeping partial, untouched, decoy, and local-test entries out of this edition.
 - [x] Give each selected challenge an English method, result, and evidence limit.
 - [x] Keep raw private notes, credentials, binaries, and unreviewed scripts out of the publication tree.
-- [x] Attribute independent writeups in a separate reading guide; do not count external-only cryptography solves as mine.
+- [x] Attribute independent writeups in a separate reading guide; do not infer my solve history from the absence of a page here.
+- [x] State explicitly that 17 is the current page count, not the total number of challenges the author solved.
 - [x] Validate local links, markdown hygiene, and source/result correspondence.
 - [x] Run the inherited npm quality gates and record applicability.
 - [x] Create a separate public GitHub repository and confirm the published tree.
@@ -25,7 +26,7 @@ Create an English, public, solution-only archive from the private z0d1ak working
 
 ## Checks
 
-- 17 challenge pages match the 17 flag entries in the final private-source audit.
+- 17 published challenge pages match selected flag entries in the reviewed private-source snapshot; this is a page count, not a total-solve claim.
 - 25 relative Markdown links resolved; all nine external GitHub writeup links returned existing files.
 - The original local `battle` binary returned the recorded rival-battle flag for the 14-command route; the Black Box and husk solvers independently printed their recorded flags. The recovered Ghost in the GPU image visibly contains its flag.
 - Publication tree contains only Markdown; secret-pattern scan found no keys or credentials.
